@@ -42,6 +42,20 @@ class FieldWriterTests {
 
         assertEquals(expected, result);
     }
+    
+    @Test
+    void includenormalizeNewlineInAbstractField() throws Exception {
+        String text = "lorem" + OS.NEWLINE + " ipsum lorem ipsum\nlorem ipsum \rlorem ipsum\r\ntest";
+
+        String expected = "{" + "lorem" + OS.NEWLINE + " ipsum lorem ipsum" + OS.NEWLINE
+                + "lorem ipsum "
+                + OS.NEWLINE + "lorem ipsum"
+                + OS.NEWLINE + "test" + "}";
+
+        String result = writer.write(StandardField.ABSTRACT, text);
+
+        assertEquals(expected, result);
+    }
 
     
     @Test
