@@ -40,7 +40,7 @@ class FieldWriterTests {
         String result = writer.write(StandardField.ABSTRACT, text);
         String expected = "{" + text + "}";
 
-        assertEquals(expected, result);
+        assertEquals(expected, test);
     }
 
     
