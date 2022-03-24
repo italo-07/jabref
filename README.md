@@ -99,3 +99,5 @@ For IntelliJ IDEA, just import the project via a Gradle Import by pointing at th
 [JabRef]: https://www.jabref.org
 
 Estou editando o arquivo Readme
+
+<img width="689" alt="jabrefimage-CaioBarreto" src="https://user-images.githubusercontent.com/79175690/160026614-477ffddc-ba61-4562-b34c-477526eb9795.png">
