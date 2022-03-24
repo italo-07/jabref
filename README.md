@@ -98,3 +98,4 @@ For IntelliJ IDEA, just import the project via a Gradle Import by pointing at th
 
 [JabRef]: https://www.jabref.org
 
+Estou editando o arquivo Readme
